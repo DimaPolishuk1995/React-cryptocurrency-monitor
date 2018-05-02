@@ -17,7 +17,8 @@
     "suppressImplicitAnyIndexErrors": true,
     "noUnusedLocals": true,
     "types": [
-      "node"
+      "node",
+      "material-ui"
     ],
     "typeRoots": [
       "node_modules/@types"
