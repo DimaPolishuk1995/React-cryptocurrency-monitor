@@ -1,19 +1,16 @@
 import * as React from 'react';
-import './App.css';
 
-import logo from './logo.svg';
+import Main from './components/containers/Main'
+import Footer from './components/ui-elements/Footer/index'
+import Header from './components/ui-elements/Header/index'
 
 class App extends React.Component {
   public render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React Dmitriy</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.tsx</code> and save to reload.
-        </p>
+      <div className="app">
+        <Header />
+        <Main />
+        <Footer />
       </div>
     );
   }
